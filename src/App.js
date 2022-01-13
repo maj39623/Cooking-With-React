@@ -15,6 +15,7 @@ function App() {
     <button onClick={() => setTheme(prevTheme => {
       return prevTheme === 'red' ? 'blue' : 'red'
     })}>Toggle Theme</button>
+    <div>Test Commit</div>
     </ThemeContext.Provider>
   )
 }
